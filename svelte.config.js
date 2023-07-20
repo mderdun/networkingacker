@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 import { escapeSvelte, mdsvex } from 'mdsvex';
@@ -6,6 +6,8 @@ import shiki from 'shiki';
 import remarkUnwrapIages from 'remark-unwrap-images';
 import remarkToc from 'remark-toc';
 import rehypeSlug from 'rehype-slug';
+
+const dev = "production" === "development";
 
 /** @type {import('mdsvex').mdsvexOptions} */
 const mdsvexOptions = {
@@ -27,7 +29,16 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+            pages: "docs",
+            assets: "docs"
+        }),
+        paths: {
+            // change below to your repo name
+            base: dev ? "" : "/networkingacker",
+        },
+        // hydrate the <div id="svelte"> element in src/app.html
+        target: "#svelte",
 		prerender: {
 			handleHttpError: async ({ request, resolve }) => {
 				const response = await resolve(request);

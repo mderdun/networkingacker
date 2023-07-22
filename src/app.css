@@ -10,12 +10,13 @@ html {
 	--brand-dark: var(--orange-3);
 	--text-1-dark: var(--gray-3);
 	--text-2-dark: var(--gray-5);
-	--surface-1-dark: var(--gray-12);
-	--surface-2-dark: var(--gray-11);
-	--surface-3-dark: var(--gray-10);
+	--surface-1-dark: var(--sand-11);
+	--surface-2-dark: var(--sand-10);
+	--surface-3-dark: var(--sand-9);
 	--surface-4-dark: var(--gray-9);
-	--background-dark: var(--gradient-8);
+	--background-dark: var(--sand-11);
 	--border-dark: var(--gray-9);
+	--highlighter-dark: var(--pink-2);
 
 	/* light */
 	--brand-light: var(--orange-10);
@@ -27,6 +28,7 @@ html {
 	--surface-4-light: var(--gray-3);
 	--background-light: none;
 	--border-light: var(--gray-4);
+	--highlighter-light: var(--pink-2);
 }
 
 :root {
@@ -41,6 +43,7 @@ html {
 	--surface-4: var(--surface-4-dark);
 	--background: var(--background-dark);
 	--border: var(--border-dark);
+	--highlighter: var(--highlighter-dark);
 }
 
 @media (prefers-color-scheme: light) {
@@ -56,6 +59,7 @@ html {
 		--surface-4: var(--surface-4-light);
 		--background: var(--background-light);
 		--border: var(--border-light);
+		--highlighter: var(--highlighter-light);
 	}
 }
 
@@ -71,6 +75,7 @@ html {
 	--surface-4: var(--surface-4-dark);
 	--background: var(--background-dark);
 	--border: var(--border-dark);
+	--highlighter: var(--highlighter-dark);
 }
 
 [color-scheme='light'] {
@@ -85,6 +90,7 @@ html {
 	--surface-4: var(--surface-4-light);
 	--background: var(--background-light);
 	--border: var(--border-light);
+	--highlighter: var(--highlighter-light);
 }
 
 html,

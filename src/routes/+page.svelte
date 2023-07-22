@@ -1,6 +1,10 @@
 <script lang="ts">
     import { formatDate } from '$lib/utils.js';
-    import * as config from '$lib/config'
+    import * as config from '$lib/config';
+    import TextBoxAnim from '../components/TextBoxAnim.svelte';
+    import BlogHead from '../components/BlogHead.svelte';
+
+    import { reveal } from 'svelte-reveal';
 
     export let data
 </script>
@@ -10,6 +14,15 @@
 </svelte:head>
 
 <section>
+    <div>
+        <div style="padding-bottom: 3rem">
+            <TextBoxAnim />
+        </div>
+    </div>
+</section>
+
+<section>
+    <BlogHead />
     <ul class="posts">
         {#each data.posts as post}
             <li class="post">
@@ -24,6 +37,7 @@
 </section>
 
 <style>
+
     .posts {
         display: grid;
         gap: var(--size-7);

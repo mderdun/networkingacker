@@ -39,6 +39,9 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^5.45.0
     version: 5.62.0(eslint@8.45.0)(typescript@5.1.6)
+  animejs:
+    specifier: ^3.2.1
+    version: 3.2.1
   eslint:
     specifier: ^8.28.0
     version: 8.45.0
@@ -48,6 +51,9 @@ devDependencies:
   eslint-plugin-svelte:
     specifier: ^2.30.0
     version: 2.32.2(eslint@8.45.0)(svelte@4.0.5)
+  letterizejs:
+    specifier: ^2.0.1
+    version: 2.0.1
   mdsvex:
     specifier: ^0.11.0
     version: 0.11.0(svelte@4.0.5)
@@ -63,6 +69,12 @@ devDependencies:
   svelte-check:
     specifier: ^3.4.3
     version: 3.4.6(postcss@8.4.26)(svelte@4.0.5)
+  svelte-marquee-text-widget:
+    specifier: ^1.1.0
+    version: 1.1.0
+  svelte-reveal:
+    specifier: ^0.7.0
+    version: 0.7.0
   tslib:
     specifier: ^2.4.1
     version: 2.6.0
@@ -727,6 +739,10 @@ packages:
       fast-json-stable-stringify: 2.1.0
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
+    dev: true
+
+  /animejs@3.2.1:
+    resolution: {integrity: sha512-sWno3ugFryK5nhiDm/2BKeFCpZv7vzerWUcUPyAZLDhMek3+S/p418ldZJbJXo5ZUOpfm2kP2XRO4NJcULMy9A==}
     dev: true
 
   /ansi-regex@5.0.1:
@@ -1490,6 +1506,10 @@ packages:
     resolution: {integrity: sha512-uMCj6+hZYDoffuvAJjFAPz56E9uoowFHmTkqRtRq5WyC5Q6Cu/fTZKNQpX/RbzChBYLLl3lo8CjFZBAZXq9qFg==}
     dev: true
 
+  /letterizejs@2.0.1:
+    resolution: {integrity: sha512-ofKV11GGUdEZELXSwR97AteC3Uv9cmLt7IB+L5BLyMp8khDBCwGs+B+c6FHoL/n7vAPC2aeva5WU3gdOuFIhmA==}
+    dev: true
+
   /levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -2175,6 +2195,10 @@ packages:
       svelte: 4.0.5
     dev: true
 
+  /svelte-marquee-text-widget@1.1.0:
+    resolution: {integrity: sha512-mBO3fBA++Xwn7P1VdgeH4OI+MrulxxNrGwdX7NVA1GU1ZCyrQUcb7AD8V3s6s2ZWW3cRXVhbBmgXW+aABYV9kA==}
+    dev: true
+
   /svelte-preprocess@5.0.4(postcss@8.4.26)(svelte@4.0.5)(typescript@5.1.6):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
@@ -2221,6 +2245,10 @@ packages:
       strip-indent: 3.0.0
       svelte: 4.0.5
       typescript: 5.1.6
+    dev: true
+
+  /svelte-reveal@0.7.0:
+    resolution: {integrity: sha512-cmdYWpULQXtbEuzxxObR2IRbyKef51KlqidkLswj1F3FzeoYr9WHvL2setvvkH3MpD0BfFngvWWAXNPj/PDXXA==}
     dev: true
 
   /svelte@4.0.5:

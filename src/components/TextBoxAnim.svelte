@@ -70,7 +70,7 @@
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		text-transform: uppercase, full-width;
+		text-transform: full-width;
 		font-family: sans-serif;
 		height: 100%;
 		box-sizing: border-box;

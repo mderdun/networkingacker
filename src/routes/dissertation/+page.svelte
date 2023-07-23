@@ -25,9 +25,12 @@
 
 <style>
     pre {
-        margin-top: 24rem;
         font-family: monospace;
-        font-size: 0.5em;
-        color: var(--red-8);
+        font-size: 0.4rem;
+        color: var(--ascii);
+        font-weight: bold;
+        line-height: 0.45rem;
+        margin-top: 1rem;
+        text-shadow: 0px 0px 12px var(--ascii);
     }
 </style>

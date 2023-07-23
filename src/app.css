@@ -114,6 +114,10 @@ a {
 	text-decoration: none;
 }
 
+a:visited {
+	color: inherit;
+}
+
 ul,
 ol {
 	list-style: none;

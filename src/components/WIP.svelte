@@ -16,6 +16,7 @@
 
 <style>
 	.police-tape-text {
+        color: black;
 		padding: 0.125em;
 		font-size: 3em;
 		text-align: center;

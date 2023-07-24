@@ -29,6 +29,15 @@
 </article>
 
 <style>
+    :global(a) {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    :global(p) {
+        font-size: var(--font-size-2);
+    }
+
     article {
         max-inline-size: var(--size-content-3);
         margin-inline: auto;

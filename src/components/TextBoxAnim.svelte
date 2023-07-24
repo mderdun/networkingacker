@@ -61,7 +61,8 @@
     div.text {
         display: flex;
         overflow: hidden;
-        width: 90vw;
+		width: 90vw;
+		padding-inline: var(--size-7);
     }
 	div.box {
 		font-weight: 700;

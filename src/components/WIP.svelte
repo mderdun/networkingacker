@@ -4,8 +4,7 @@
 		Construction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under
 		Construction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under
 		Construction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under
-		Construction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under
-		Construction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under Construction
+		Construction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	</h1>
 </div>
 <div class="police-tape--2">
@@ -25,6 +24,7 @@
 
 	.police-tape--1 {
 		background-color: var(--yellow-3);
+		box-shadow: 0 0.8em 0.9em 0.25em var(--tape-shadow);
 		transform: rotate(10deg);
 		position: absolute;
 		top: 40%;
@@ -34,7 +34,8 @@
 		margin-top: 0;
 	}
 	.police-tape--2 {
-		background-color: var(--yellow-3);
+		background-color: var(--yellow-4);
+		box-shadow: 0 0.5em 0.5em 0.1em var(--tape-shadow);
 		transform: rotate(-8deg);
 		position: absolute;
 		top: 50%;

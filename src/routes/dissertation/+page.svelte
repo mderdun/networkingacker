@@ -2,6 +2,7 @@
     import WIP from "../../components/WIP.svelte";
 </script>
 
+<div class="page">
 <h1>Dissertation</h1>
 <p>Bear with me I'm still writing it...</p>
 <p>Once it's done, I'll upload an interactive web version here.</p>
@@ -21,6 +22,7 @@
 
 <div>
     <WIP />
+</div>
 </div>
 
 <style>

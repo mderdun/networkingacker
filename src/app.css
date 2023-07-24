@@ -18,6 +18,7 @@ html {
 	--border-dark: var(--gray-9);
 	--highlighter-dark: var(--pink-2);
 	--ascii-dark: var(--red-6);
+	--tape-shadow-dark: var(--gray-11);
 
 	/* light */
 	--brand-light: var(--orange-10);
@@ -27,10 +28,11 @@ html {
 	--surface-2-light: var(--gray-1);
 	--surface-3-light: var(--gray-2);
 	--surface-4-light: var(--gray-3);
-	--background-light: none;
+	--background-light: var(--sand-0);
 	--border-light: var(--gray-4);
 	--highlighter-light: var(--pink-2);
-	--ascii-light: var(--red-9);
+	--ascii-light: var(--red-7);
+	--tape-shadow-light: var(--gray-9);
 }
 
 :root {
@@ -47,6 +49,7 @@ html {
 	--border: var(--border-dark);
 	--highlighter: var(--highlighter-dark);
 	--ascii: var(--ascii-dark);
+	--tape-shadow: var(--tape-shadow-dark);
 }
 
 @media (prefers-color-scheme: light) {
@@ -64,6 +67,7 @@ html {
 		--border: var(--border-light);
 		--highlighter: var(--highlighter-light);
 		--ascii: var(--ascii-light);
+		--tape-shadow: var(--tape-shadow-light);
 	}
 }
 
@@ -81,6 +85,7 @@ html {
 	--border: var(--border-dark);
 	--highlighter: var(--highlighter-dark);
 	--ascii: var(--ascii-dark);
+	--tape-shadow: var(--tape-shadow-dark);
 }
 
 [color-scheme='light'] {
@@ -97,6 +102,7 @@ html {
 	--border: var(--border-light);
 	--highlighter: var(--highlighter-light);
 	--ascii: var(--ascii-light);
+	--tape-shadow: var(--tape-shadow-light);
 }
 
 html,
@@ -108,7 +114,7 @@ body {
 html {
 	color: var(--text-1);
 	accent-color: var(--link);
-	background-image: var(--background);
+	background-color: var(--background);
 	background-attachment: fixed;
 }
 

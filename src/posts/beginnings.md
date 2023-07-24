@@ -25,7 +25,7 @@ published: true
   
 
 ## Introduction
-In this post, I'm going to explain the foundations of this project, what I've done so far, and if it's of any interest to you, some personal context to the project. <Highlighter>It will be admittedly verbose, and if you're looking for a more concise synopsis, please have a look at the dedicated [About](https://networkingacker.mderdun.com/about) page</Highlighter> (which might actually still be under construction...).
+In this post, I'm going to explain the foundations of this project, what I've done so far, and if it's of any interest to you, some personal context to the project. <Highlighter>It will be admittedly verbose, and if you're looking for a more concise synopsis, please have a look at the dedicated [About](/about) page</Highlighter> (which might actually still be under construction...).
 
 This blog is a space for me to develop and reflect on my ideas. I am going into my third year of a three-year undergraduate degree in English Literature at Durham University. I've chosen a difficult subject for my dissertation, one that's part of a much greater research vision that I hope I can carry out in the future. The toolkit I've opted for is a mix of the old and the new. All aspects I hope will come together to encourage and challenge both broader, abstract concepts, as well as close critical commentary.
 

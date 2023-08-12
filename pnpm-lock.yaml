@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@fontsource-variable/caveat':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@fontsource/jetbrains-mono':
     specifier: ^5.0.5
     version: 5.0.5
@@ -333,6 +336,10 @@ packages:
     resolution: {integrity: sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource-variable/caveat@5.0.8:
+    resolution: {integrity: sha512-dHPoKRuGVPLjQgigcntm1TnlRSOanzJY0ejlQYuUDceaNw1DQ6/9haYzDD8z9DsrZNBOhfyh4legq0L22CXi3A==}
+    dev: false
 
   /@fontsource/jetbrains-mono@5.0.5:
     resolution: {integrity: sha512-Smuppiu7QzNCatnccTXdUYbxUmEVywklM/hntWKhig0Q+hm7SYzQpNpxCR1Gm8npE8jpaKslhIsBPGuTBGZgdA==}

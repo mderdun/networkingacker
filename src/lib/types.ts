@@ -1,4 +1,4 @@
-export type Tags = 'devblog' | 'criticism' | 'update' | 'misc'
+export type Tags = 'devblog' | 'criticism' | 'update' | 'misc' | 'notebook'
 
 export type Post = {
     title: string

@@ -23,7 +23,7 @@
     </div>
 
     <div class="prose">
-        <svelte:component this={data.content} />
+        <svelte:component this={data.content} class="prosetext"/>
     </div>
 
 </article>
@@ -36,6 +36,8 @@
 
     :global(p) {
         font-size: var(--font-size-2);
+        text-align: justify;
+        text-justify: auto;
     }
 
     article {

@@ -19,7 +19,7 @@ const mdsvexOptions = {
 	},
 	remarkPlugins: [remarkUnwrapIages, [remarkToc, { tight: true }]],
 	rehypePlugins: [rehypeSlug],
-	customElements: [{ name: 'Highlighter', path: './src/components/pencilcase/Highlighter.svelte' }],
+	customElements: [{ name: 'Highlighter', path: './src/components/pencilcase/Highlighter.svelte' }, { name: 'Quote', path: './src/components/pencilcase/Quote.svelte' }],
 }
 
 /** @type {import('@sveltejs/kit').Config} */

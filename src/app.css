@@ -1,12 +1,15 @@
 @import '@fontsource/manrope';
 @import '@fontsource/jetbrains-mono';
 @import '@fontsource-variable/caveat';
+@import '@fontsource/lora';
 
 html {
 	/* font */
 	--font-sans: 'Manrope', sans-serif;
 	--font-mono: 'JetBrains Mono', monospace;
 	--font-hand: 'Caveat Variable', sans-serif;
+	--font-serif: 'Lora', serif;
+
 
 	/* dark */
 	--brand-dark: var(--orange-3);
@@ -21,6 +24,7 @@ html {
 	--highlighter-dark: var(--pink-2);
 	--ascii-dark: var(--red-6);
 	--tape-shadow-dark: var(--gray-11);
+	--quote-dark: var(--sand-10);
 
 	/* light */
 	--brand-light: var(--orange-10);
@@ -35,6 +39,7 @@ html {
 	--highlighter-light: var(--pink-2);
 	--ascii-light: var(--red-7);
 	--tape-shadow-light: var(--gray-9);
+	--quote-light: var(--sand-1);
 }
 
 :root {
@@ -52,6 +57,7 @@ html {
 	--highlighter: var(--highlighter-dark);
 	--ascii: var(--ascii-dark);
 	--tape-shadow: var(--tape-shadow-dark);
+	--quote: var(--quote-dark);
 }
 
 @media (prefers-color-scheme: light) {
@@ -70,6 +76,7 @@ html {
 		--highlighter: var(--highlighter-light);
 		--ascii: var(--ascii-light);
 		--tape-shadow: var(--tape-shadow-light);
+		--quote: var(--quote-light);
 	}
 }
 
@@ -88,6 +95,7 @@ html {
 	--highlighter: var(--highlighter-dark);
 	--ascii: var(--ascii-dark);
 	--tape-shadow: var(--tape-shadow-dark);
+	--quote: var(--quote-dark);
 }
 
 [color-scheme='light'] {
@@ -105,6 +113,7 @@ html {
 	--highlighter: var(--highlighter-light);
 	--ascii: var(--ascii-light);
 	--tape-shadow: var(--tape-shadow-light);
+	--quote: var(--quote-light);
 }
 
 html,

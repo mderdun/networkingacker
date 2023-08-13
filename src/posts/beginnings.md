@@ -16,6 +16,7 @@ published: true
 
 <script>
     import Highlighter from '../components/pencilcase/Highlighter.svelte'
+    import Quote from '../components/pencilcase/Quote.svelte'
 </script>
 
   
@@ -39,8 +40,18 @@ For the <Highlighter>current stage of the project</Highlighter>, I'm focusing on
 So network theory and narrative identity theory will be key outlooks for this project. Networks lend themselves well to digital analysis, but Acker's fractured narratives don't. There's a lot of work to be done to reconcile these two approaches, and I'm hoping to find a way to do that.
 
 I've been heavily influenced by theoretical networks ever since I first read Spinoza and Deleuze. But I've had an attraction to networked thinking for as long as I can remember, it's how my mind works instinctively. Recently reading Acker's interviews, I feel I can deeply relate to her:
->ACKER (to Sylvère Lotringer): Well, meeting you influenced me—you don't like influence—but it changed me a lot because by introducing me to French philosophers, you gave me a way of verbalizing what I had been doing in language[...] I remember thinking, Why don't they know me! I know exactly what they're talking about! And I could go farther, that was the big thing for me. I had a real sense, until that happened that I was like this kind of deaf-dumb-and-blind person for years; I just did what I did but I had no way of telling anyone about it, or talking about it.^1
+<Quote>
+<span slot="quote">
 
+<strong>ACKER (to Sylvère Lotringer):</strong>
+Well, meeting you influenced me—you don't like influence—but it changed me a lot because by introducing me to French philosophers, you gave me a way of verbalizing what I had been doing in language[...] I remember thinking, Why don't they know me! I know exactly what they're talking about! And I could go farther, that was the big thing for me. I had a real sense, until that happened that I was like this kind of deaf-dumb-and-blind person for years; I just did what I did but I had no way of telling anyone about it, or talking about it.
+</span>
+<span slot="citation">
+Kathy Acker, 'Interview by Sylvère Lotringer: Unexpurgated Transcript 1989-1990', in <i>The Last Interview: and Other Conversations</i> (Melville House: New York, 2019)
+</span>
+</Quote>
+
+[^1^]
 So there is a dual purpose of pursuing network thinking in its theory and practice. One is of course for the aims of the project. The other is out of personal desire for the best way to express, experience, and indulge in a particular way of thinking, a way which brings me joy and fulfilment because it aligns most closely with my own experience.
 
 ## So far...
@@ -76,6 +87,6 @@ I loved that these topics felt so fresh, so far from being closed, and so I made
 
 I'm hoping to continue this project after my degree, and I'm hoping to find a way to make it my career. I'm not sure what that would look like, but I'm sure I'll find a way.
 
-## Citations
-[1] Kathy Acker, 'Interview by Sylvère Lotringer: Unexpurgated Transcript 1989-1990', in *The Last Interview: and Other Conversations* (Melville House: New York, 2019)
+## Bibliography
+Acker, Kathy, 'Interview by Sylvère Lotringer: Unexpurgated Transcript 1989-1990', in *The Last Interview: and Other Conversations* (Melville House: New York, 2019)
 

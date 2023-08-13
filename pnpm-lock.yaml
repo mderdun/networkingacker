@@ -7,6 +7,9 @@ dependencies:
   '@fontsource/jetbrains-mono':
     specifier: ^5.0.5
     version: 5.0.5
+  '@fontsource/lora':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@fontsource/manrope':
     specifier: ^5.0.5
     version: 5.0.5
@@ -343,6 +346,10 @@ packages:
 
   /@fontsource/jetbrains-mono@5.0.5:
     resolution: {integrity: sha512-Smuppiu7QzNCatnccTXdUYbxUmEVywklM/hntWKhig0Q+hm7SYzQpNpxCR1Gm8npE8jpaKslhIsBPGuTBGZgdA==}
+    dev: false
+
+  /@fontsource/lora@5.0.8:
+    resolution: {integrity: sha512-lJBsGmaOCr5INZwxz29TVTrIuZPTYcd3lkwnpoTclb86KsYpyU7chDVUQvf3CW/+hdX3fi1z7GvUz/kJIDyiZA==}
     dev: false
 
   /@fontsource/manrope@5.0.5:

@@ -51,7 +51,6 @@ Kathy Acker, 'Interview by Sylvère Lotringer: Unexpurgated Transcript 1989-1990
 </span>
 </Quote>
 
-[^1^]
 So there is a dual purpose of pursuing network thinking in its theory and practice. One is of course for the aims of the project. The other is out of personal desire for the best way to express, experience, and indulge in a particular way of thinking, a way which brings me joy and fulfilment because it aligns most closely with my own experience.
 
 ## So far...

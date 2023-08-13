@@ -43,8 +43,7 @@ I've been heavily influenced by theoretical networks ever since I first read Spi
 <Quote>
 <span slot="quote">
 
-<strong>ACKER (to Sylvère Lotringer):</strong>
-Well, meeting you influenced me—you don't like influence—but it changed me a lot because by introducing me to French philosophers, you gave me a way of verbalizing what I had been doing in language[...] I remember thinking, Why don't they know me! I know exactly what they're talking about! And I could go farther, that was the big thing for me. I had a real sense, until that happened that I was like this kind of deaf-dumb-and-blind person for years; I just did what I did but I had no way of telling anyone about it, or talking about it.
+ACKER (to Sylvère Lotringer): Well, meeting you influenced me—you don't like influence—but it changed me a lot because by introducing me to French philosophers, you gave me a way of verbalizing what I had been doing in language[...] I remember thinking, Why don't they know me! I know exactly what they're talking about! And I could go farther, that was the big thing for me. I had a real sense, until that happened that I was like this kind of deaf-dumb-and-blind person for years; I just did what I did but I had no way of telling anyone about it, or talking about it.
 </span>
 <span slot="citation">
 Kathy Acker, 'Interview by Sylvère Lotringer: Unexpurgated Transcript 1989-1990', in <i>The Last Interview: and Other Conversations</i> (Melville House: New York, 2019)

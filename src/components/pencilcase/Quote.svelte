@@ -30,6 +30,7 @@
     line-height: 1.7rem;
     border-bottom: 2px dashed var(--surface-1);
     padding-bottom: 1.4rem;
+    white-space: pre-wrap;
 }
 
 .citation {

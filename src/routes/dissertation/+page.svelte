@@ -1,5 +1,5 @@
 <script>
-    import WIP from "../../components/WIP.svelte";
+    import WIP from "$lib/components/WIP.svelte";
 </script>
 
 <div class="page">

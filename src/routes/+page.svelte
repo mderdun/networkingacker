@@ -1,8 +1,8 @@
 <script lang="ts">
     import { formatDate } from '$lib/utils.js';
     import * as config from '$lib/config';
-    import TextBoxAnim from '../components/TextBoxAnim.svelte';
-    import BlogHead from '../components/BlogHead.svelte';
+    import TextBoxAnim from '$lib/components/TextBoxAnim.svelte';
+    import BlogHead from '$lib/components/BlogHead.svelte';
 
     import { reveal } from 'svelte-reveal';
 

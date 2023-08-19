@@ -1,6 +1,6 @@
 <script>
-    import QuestionsAscii from "../../components/ASCII/QuestionsASCII.svelte";
-    import AboutAscii from "../../components/ASCII/AboutASCII.svelte";
+    import QuestionsAscii from "$lib/components/ASCII/QuestionsASCII.svelte";
+    import AboutAscii from "$lib/components/ASCII/AboutASCII.svelte";
     import MarqueeTextWidget from 'svelte-marquee-text-widget';
 </script>
 <div style="padding-bottom: 3rem;">

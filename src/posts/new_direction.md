@@ -15,8 +15,8 @@ published: true
 ---
 
 <script>
-    import Quote from '../components/pencilcase/Quote.svelte'
-    import Highlighter from '../components/pencilcase/Highlighter.svelte'
+    import Quote from '$lib/components/pencilcase/Quote.svelte'
+    import Highlighter from '$lib/components/pencilcase/Highlighter.svelte'
 </script>
 
 ## Table of Contents

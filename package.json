@@ -38,6 +38,7 @@
 		"@fontsource/jetbrains-mono": "^5.0.5",
 		"@fontsource/lora": "^5.0.8",
 		"@fontsource/manrope": "^5.0.5",
+		"d3": "^7.8.5",
 		"lucide-svelte": "^0.261.0",
 		"open-props": "^1.5.10",
 		"rehype-slug": "^5.1.0",
